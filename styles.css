@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Roca One';
+    src: url('assets/fonts/RocaLight.ttf') format('truetype'); 
+}
+
+body {
+    font-family: 'Roca One';
+    background: linear-gradient(90deg, rgba(109,242,242,1) 0%, rgba(123,197,247,1) 47%, rgba(142,132,253,1) 100%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+    .image-container {
+        display: none;
+    }
+}
