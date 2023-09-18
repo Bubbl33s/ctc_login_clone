@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: 'Roca One';
-    background: linear-gradient(90deg, rgba(109,242,242,1) 0%, rgba(123,197,247,1) 47%, rgba(142,132,253,1) 100%);
+    font-family: 'Roca One', sans-serif;
+    background: linear-gradient(90deg, rgba(109,242,242,1) 0%, rgba(109,242,242,1) 15%, rgba(123,197,247,1) 50%, rgba(142,132,253,1) 100%);
     margin: 0;
     display: flex;
     align-items: center;
@@ -20,12 +20,69 @@ body {
 }
 
 .login-container {
+    align-items: center;
     background-color: #FFFFFF;
     border-radius: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 20px 45px 45px  40px;
+    width: calc(310px + 47px);
+}
+
+.login-header {
+    font-size: 30px;
+    width: 100%;
+}
+
+.login-text {
+    font-size: 20px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#user {
+    margin-bottom: 15px;
+}
+
+input::placeholder {
+    color: #A0AEC0;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+
+.login-message-box {
+    display: flex;
+    background-color: #F1F1F1;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login-button {
+    display: block;
+    margin: 15px auto 0px;
+}
+
+.forgot-password {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0px;
+}
+
+.login-recuerda-text {
+    font-weight: bold;
 }
 
 @media (max-width: 1000px) {
