@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="styles.css" type="text/css" />
     <body>
         <header>
-            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <a href="https://www.crackthecode.la">
+                <img src="assets/images/logo.png" alt="Logo" class="logo">
+            </a>
         </header>
         <div class="content-wrapper">
             <div class="content">
@@ -22,7 +24,9 @@
                             de Estudiantes de cada uno de tus pequeños:</p>
                         <form>
                             <input id="user" placeholder="Usuario">
+                            <span id="user-error" class="error-message"></span>
                             <input id="password" placeholder="Contraseña">
+                            <span id="password-error" class="error-message"></span>
                             <div class="login-message-box">
                                 <p class="login-message-text"><span class="login-recuerda-text">¡Recuerda!</span> Enviamos tu usuario
                                 y contraseña a tu correo cuando inscribiste a tu hijo o hija.</p>
@@ -34,5 +38,6 @@
                 </main>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

@@ -81,8 +81,8 @@ input {
     padding-left: 20px;
 }
 
-#user {
-    margin-bottom: 15px;
+#password {
+    margin-top: 15px;
 }
 
 input::placeholder {
@@ -91,6 +91,12 @@ input::placeholder {
     font-size: 15px;
 }
 
+.error-message {
+    font-family: "Arial", sans-serif;
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+}
 
 .login-message-box {
     display: flex;
@@ -159,5 +165,9 @@ input::placeholder {
 @media (max-width: 1000px) {
     .image-container {
         display: none;
+    }
+
+    .login-container {
+        margin-left: 0px;
     }
 }
